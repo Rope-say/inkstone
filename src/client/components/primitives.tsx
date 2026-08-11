@@ -6,25 +6,19 @@ import { resolveAvatarSource } from '../lib/avatar'
 
 export function Logo({ size = 20, className }: { size?: number; className?: string }) {
   return (
-    <svg
+       <svg
       viewBox="0 0 32 32"
       width={size}
       height={size}
       className={cn('ink-logo', className)}
       aria-hidden="true"
     >
-      <rect
-        x="2.5"
-        y="2.5"
-        width="27"
-        height="27"
-        rx="8.5"
-        className="fill-[var(--text-primary)]"
-      />
-      <path
-        d="M16 8.2c2.7 3.5 5.4 6.3 5.4 9.3a5.4 5.4 0 1 1-10.8 0c0-3 2.7-5.8 5.4-9.3z"
-        className="fill-[var(--brand-accent)]"
-      />
+      <path d="M6 2.5h20c0.8 0 1.5 0.7 1.5 1.5v24c0 0.8-0.7 1.5-1.5 1.5H6C5.2 28.5 4.5 27.8 4.5 27V4c0-0.8 0.7-1.5 1.5-1.5z" fill="#0978dd"/>
+      <rect x="7" y="2.5" width="1.6" height="27" fill="#ffffff"/>
+      <path d="M6 2.5C5.2 2.5 4.5 3.2 4.5 4v24c0 0.8 0.7 1.5 1.5 1.5h20c0.8 0 1.5-0.7 1.5-1.5V4c0-0.8-0.7-1.5-1.5-1.5H6z" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M21 2.5h-7v5.6l2.6 3.2a1 1 0 0 0 1.4.2l3-2.2 1.8-1.4V2.5z" fill="#28d1a0"/>
+      <circle cx="18" cy="7.8" r="0.75" fill="#ffffff"/>
+      <path d="M21 2.5h-7v5.6l2.6 3.2a1 1 0 0 0 1.4.2l3-2.2 1.8-1.4V2.5z" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linejoin="round"/>
     </svg>
   )
 }
