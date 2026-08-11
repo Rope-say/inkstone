@@ -1,7 +1,7 @@
 import type { MessageKey } from './en-US';
 export const ZH_CN_MESSAGES = {
     "app.boot_label": "正在准备笔记本…",
-    "app.document_title": "Inkstone",
+    "app.document_title": "G笔记",
     "app.meta_description": "运行在 Cloudflare 上的私有、自托管 Markdown 笔记本。",
     "api.error.bad_request": "请求内容有误",
     "api.error.conflict": "内容已在别处修改，请刷新后重试",
@@ -207,7 +207,7 @@ export const ZH_CN_MESSAGES = {
     "common.password": "密码",
     "common.permanently_deleted_value0_notes": "已彻底删除 {value0} 篇笔记",
     "common.preview": "预览",
-    "common.product_name": "Inkstone",
+    "common.product_name": "G笔记",
     "common.quote": "引用",
     "common.remove_from_favorites": "取消收藏",
     "common.restore": "恢复",
