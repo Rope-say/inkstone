@@ -16,7 +16,7 @@
 </p>
 
 ## About
-
+This project originates from https://github.com/shuaiplus/inkstone, with modifications documented in BRANDING_CHANGES.md
 Inkstone is a browser-based notebook that runs on Cloudflare Workers. Notes always remain plain Markdown text; on top of that foundation, the application provides focused writing, live preview, lexical and optional semantic search, bidirectional links, offline editing, multi-device synchronization, private AI access, public sharing, and off-site backups.
 
 It is a complete self-hosted application. The deployer retains control of the database, attachments, and runtime environment.
