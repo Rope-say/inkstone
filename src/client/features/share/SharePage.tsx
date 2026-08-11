@@ -184,7 +184,7 @@ export function SharePage({ slug }: {
             <Logo size={15}/>
           </span>
           <span className="text-[12.5px] font-semibold tracking-[-0.01em] text-[var(--text-primary)]">
-            {note?.site.name ?? 'Inkstone'}
+            {note?.site.name ?? 'G 笔记'}
           </span>
           <span className="flex-1"/>
           <Tooltip label={t("share.switch_theme")} side="left">
