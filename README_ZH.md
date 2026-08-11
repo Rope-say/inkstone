@@ -16,7 +16,7 @@
 </p>
 
 ## 项目简介
-
+本项目衍生自 [shuaiplus/inkstone](https://github.com/shuaiplus/inkstone)，修改记录详见 [BRANDING_CHANGES.md](./BRANDING_CHANGES.md)。
 Inkstone 是运行在 Cloudflare Workers 上的浏览器笔记本。笔记始终是普通 Markdown 文本；在此基础上，应用提供专注写作、实时预览、关键词与可选语义搜索、双链导航、离线编辑、多设备同步、私有 AI 接入、公开分享和异地备份。
 
 它是一套需要自行部署的完整应用，数据库、附件和运行环境都由部署者掌控。
