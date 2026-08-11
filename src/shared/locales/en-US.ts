@@ -1,6 +1,6 @@
 export const EN_US_MESSAGES = {
     "app.boot_label": "Preparing your notebook…",
-    "app.document_title": "Inkstone",
+    "app.document_title": "G notes",
     "app.meta_description": "A private, self-hosted Markdown notebook built on Cloudflare.",
     "api.error.bad_request": "The request is invalid",
     "api.error.conflict": "This content was changed elsewhere. Refresh and try again",
@@ -206,7 +206,7 @@ export const EN_US_MESSAGES = {
     "common.password": "Password",
     "common.permanently_deleted_value0_notes": "Permanently deleted {value0} notes",
     "common.preview": "Preview",
-    "common.product_name": "Inkstone",
+    "common.product_name": "G 笔记",
     "common.quote": "Quote",
     "common.remove_from_favorites": "Remove from favorites",
     "common.restore": "Restore",
