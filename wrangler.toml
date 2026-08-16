@@ -1,6 +1,6 @@
 name = "inkstone"
 main = "src/worker/index.ts"
-compatibility_date = "2026-05-01"
+compatibility_date = "2026-08-16"
 compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
 
 [assets]
@@ -49,6 +49,10 @@ storage = "sqlite"
 type = "durable-object"
 storage = "sqlite"
 
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "inkstone-vectorize"
+
 [ai]
 binding = "AI"
 
@@ -57,6 +61,9 @@ crons = ["0 * * * *", "15,45 * * * *"]
 
 [vars]
 APP_NAME = "Inkstone"
+LLM_MODEL = "@cf/qwen/qwen3-8b-instruct"
+EMBEDDING_MODEL = "@cf/baai/bge-m3"
+EMBEDDING_PROVIDER = "openai"
 
 [observability]
 enabled = true
